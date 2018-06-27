@@ -8,12 +8,13 @@ Blockly.Blocks['soil_new'] = {
     this.setTooltip('');
     this.setHelpUrl(mainUrl + 'basic/sensor/soil.html' + utmUrl);
   },
+
   getPinDropdown: function () {
     var tags = Code.getTags(),
       mappings = [
-        ["A4", "4"],
-        ["A5", "5"],
-        ["A7", "7"]
+        ["1~ (A4)", "4"],
+        ["2~ (A5)", "5"],
+        ["5 (A7)", "7"]
       ];
 
     return mappings;
