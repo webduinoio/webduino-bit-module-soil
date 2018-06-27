@@ -1,23 +1,20 @@
 Blockly.Blocks['soil_new'] = {
   init: function () {
+    function getPinDropdown() {
+      return [
+        ["1~ ( A4 )", "4"],
+        ["2~ ( A5 )", "5"],
+        ["5 ( A7 )", "7"]
+      ];
+    }
+
     this.appendDummyInput()
       .appendField(Blockly.Msg.WEBDUINO_SOIL, "土壤濕度偵測，類比腳位：")
-      .appendField(new Blockly.FieldDropdown(this.getPinDropdown), "pin_");
+      .appendField(new Blockly.FieldDropdown(getPinDropdown), "pin_");
     this.setOutput(true);
     this.setColour(230);
     this.setTooltip('');
     this.setHelpUrl(mainUrl + 'basic/sensor/soil.html' + utmUrl);
-  },
-
-  getPinDropdown: function () {
-    var tags = Code.getTags(),
-      mappings = [
-        ["1~ (A4)", "4"],
-        ["2~ (A5)", "5"],
-        ["5 (A7)", "7"]
-      ];
-
-    return mappings;
   }
 };
 
