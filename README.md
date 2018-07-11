@@ -3,8 +3,8 @@
 Block Module for Soil Moisture, of Webduino:bit.
 
 ## Installation
-
-```shell
+#### bower
+```sh
 bower install https://github.com/webduinoio/webduino-bit-module-soil.git
 ```
 

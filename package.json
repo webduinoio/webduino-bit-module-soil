@@ -1,8 +1,8 @@
 {
   "name": "webduino-bit-module-soil",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Block Module for Soil Moisture of Webduino:bit.",
-  "main": "BitSoil.js",
+  "main": "BitSoil-blockly.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
