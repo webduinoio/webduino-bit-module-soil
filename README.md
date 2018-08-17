@@ -1,6 +1,6 @@
 # webduino-bit-module-soil
 
-Block Module for Soil Moisture, of Webduino:bit.
+Block Module for soil moisture sensor of Webduino:bit.
 
 ## Installation
 #### bower
