@@ -1,4 +1,4 @@
-Blockly.Blocks['soil_new'] = {
+Blockly.Blocks['soil_new_bit'] = {
   init: function () {
     function getPinDropdown() {
       return [
@@ -9,7 +9,7 @@ Blockly.Blocks['soil_new'] = {
     }
 
     this.appendDummyInput()
-      .appendField(Blockly.Msg.WEBDUINO_SOIL, "土壤濕度偵測，類比腳位：")
+      .appendField(Blockly.Msg.WEBDUINO_SOIL_BIT, "土壤濕度偵測，類比腳位：")
       .appendField(new Blockly.FieldDropdown(getPinDropdown), "pin_");
     this.setOutput(true);
     this.setColour(230);

@@ -1,4 +1,4 @@
-Blockly.JavaScript['soil_new'] = function (block) {
+Blockly.JavaScript['soil_new_bit'] = function (block) {
   var dropdown_pin_ = block.getFieldValue('pin_');
   var code = 'getSoil(board, ' + dropdown_pin_ + ')';
   return [code, Blockly.JavaScript.ORDER_ATOMIC];

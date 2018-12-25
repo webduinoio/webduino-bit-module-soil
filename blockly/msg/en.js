@@ -1,1 +1,1 @@
-MSG.catSoil = "Soil Moisture";
+MSG.catSoil_bit = "Soil Moisture";

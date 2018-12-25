@@ -1,8 +1,8 @@
-  <category id="catSoil" index="7">
+  <category id="catSoil_bit" index="7" tags="bit">
     <block type="variables_set">
       <field name="VAR">soil</field>
       <value name="VALUE">
-        <block type="soil_new">
+        <block type="soil_new_bit" tags="bit">
           <field name="pin_">4</field>
         </block>
       </value>

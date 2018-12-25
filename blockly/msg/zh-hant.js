@@ -1,1 +1,1 @@
-MSG.catSoil = "土壤濕度偵測";
+MSG.catSoil_bit = "土壤濕度偵測";

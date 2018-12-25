@@ -1,6 +1,6 @@
 {
-  "types": ["soil_new", "soil_detected", "soil_val", "soil_stop"],
-  "category": "toolbox",
+  "types": ["soil_new_bit", "soil_detected", "soil_val", "soil_stop"],
+  "category": "catMenu3",
   "scripts": [
     "blockly/blocks.js",
     "blockly/javascript.js"
